@@ -19,16 +19,27 @@ export const EXPERIENCES = [
     year: "2023 - 2024",
     role: "Frontend Developer",
     company: "AradhyeTech",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    description: "Designed and built intuitive user interfaces for web applications using Next.js and React. Partnered with backend teams to ensure seamless integration with Node.js APIs. Focused on enhancing UI responsiveness and performance optimization.",
+    technologies: ["HTML", "CSS", "Vue.js", "MySQL", "Figma"],
+    offerLetter: "/Aradhyetech.pdf", // Path to the offer letter
   },
   {
     year: "2022 - 2023",
     role: "Web Developer",
     company: "Prodigy Infotech",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: "Created and managed dynamic web applications utilizing JavaScript, React.js, and Node.js. Developed RESTful APIs to streamline data communication. Worked closely with teams across departments to ensure efficient project execution and timely delivery.",
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    offerLetter: "/public/prodigyinfotech.pdf",
   },
+  {
+    year: "2025",
+    role: "Web Developer",
+    company: "Asthatic Social",
+    description: "Engineered and enhanced web solutions using JavaScript, React.js, and Node.js. Designed and structured APIs to support efficient data exchange. Contributed to team discussions and collaborated on UI/UX improvements to refine user experience.",
+    technologies: ["React", "TypeScript", "Tailwind", "Figma"],
+    offerLetter: "/public/Shoeb Hiring Letter - Asthatic Social .pdf",
+  },
+
   // {
   //   year: "2020 - 2021",
   //   role: "Software Engineer",
@@ -38,6 +49,8 @@ export const EXPERIENCES = [
   // },
 ];
 
+
+
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
@@ -45,27 +58,30 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    url: "https://e-commerce-by-shoeb.netlify.app/account"
   },
   {
-    title: "Task Management App",
+    title: "IBI Cyber Security Website",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
+    description: "A cybersecurity-focused website designed to showcase services, enhance online security awareness, and provide secure solutions for businesses. Features include service listings, contact forms, and a modern, responsive design.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    url: "https://ibigroup.vercel.app/"
+},
   {
     title: "Weather App",
     image: project3,
     description:
       "A website to check wheater of any location in the India.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    url: "https://climatechronicle.netlify.app/"
   },
   {
     title: "TunePlaylist",
     image: project4,
     description:
       "A music website where you can enjoy music without ads",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "JavaScript", "WebHostMost"],
+    url: "https://tuneplaylists.freewebhostmost.com/"
   },
 ];
 

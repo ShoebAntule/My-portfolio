@@ -37,7 +37,7 @@ export const EXPERIENCES = [
     company: "Asthatic Social",
     description: "Engineered and enhanced web solutions using JavaScript, React.js, and Node.js. Designed and structured APIs to support efficient data exchange. Contributed to team discussions and collaborated on UI/UX improvements to refine user experience.",
     technologies: ["React", "TypeScript", "Tailwind", "Figma"],
-    offerLetter: "/public/Shoeb Hiring Letter - Asthatic Social .pdf",
+    offerLetter: "/Shoeb Hiring Letter - Asthatic Social.pdf",
   },
 
   // {

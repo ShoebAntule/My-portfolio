@@ -6,25 +6,24 @@ const CERTIFICATES = [
   {
     title: "FlipkartGrid Certification",
     image: "/certificates/FlipkartGrid.png",
-    link: "/certificates/FlipkartGrid.pdf",
+    link: "/FlipkartGrid.pdf",
   },
   {
     title: "Performance Appraisal Quiz Certification",
     image: "/certificates/Performance Appraisal Quiz.png",
-    link: "/certificates/Performance Appraisal Quiz.pdf",
+    link: "/Performance Appraisal Quiz.pdf",
   },
   {
     title: "React Developer Certificate",
     image: "/certificates/react.png",
-    link: "/certificates/react.pdf",
+    link: "/react.pdf",
   },
   {
     title: "UI/UX Design Certificate",
     image: "/certificates/uiux.png",
-    link: "/certificates/uiux.pdf",
+    link: "/uiux.pdf",
   },
 ];
-
 const Certificates = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 

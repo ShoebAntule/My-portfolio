@@ -20,7 +20,7 @@ const Contact = () => {
         transition={{duration: 1.5}}
         className="my-4">{CONTACT.phoneNo}</motion.p>
         <a href="#" className="border-b">{CONTACT.email}</a><br />
-        <a href="/Shobe_Antule_Resume.pdf" className="border-b">{CONTACT.CV}</a>
+        <a href="/My latest resume.pdf" className="border-b">{CONTACT.CV}</a>
       </div>
     </div>
   )

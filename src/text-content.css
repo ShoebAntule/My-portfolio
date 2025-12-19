@@ -1,0 +1,16 @@
+/* Text content styling for better readability */
+.text-content {
+  max-width: 60ch;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  .text-content {
+    max-width: 55ch;
+    line-height: 1.5;
+  }
+}

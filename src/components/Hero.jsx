@@ -28,7 +28,7 @@ const Hero = () => {
               animate="visible"
               className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4"
             >
-              Hi, I'm Shoeb. I build clean and reliable web applications.
+              Hi, I'm Shoeb. I build modern web experiences that work.
             </motion.h1>
 
             <motion.p
@@ -37,7 +37,7 @@ const Hero = () => {
               animate="visible"
               className="text-lg sm:text-xl text-neutral-300 mb-6 max-w-2xl"
             >
-              I'm a Computer Engineering student and web developer who enjoys building real-world full-stack projects using React and Node.js. I'm currently looking for internships and junior roles.
+              I'm a Computer Engineering graduate and full-stack web developer who enjoys building real-world applications using React, Node.js, and modern web technologies. I'm currently looking for junior developer opportunities and freelance projects.
             </motion.p>
 
             {/* Inline Info */}
@@ -47,9 +47,9 @@ const Hero = () => {
               animate="visible"
               className="text-sm text-neutral-400 mb-8 space-y-1"
             >
-              <p>3rd year B.E. Computer Engineering (Mumbai University)</p>
-              <p>Web Development Intern experience</p>
-              <p>Open to internships & freelance work</p>
+              <p>B.E. Computer Engineering Graduate — Mumbai University</p>
+              <p>CGPA: 8.0 / 10</p>
+              <p>Open to Junior Full-Stack Developer & Freelance Opportunities</p>
             </motion.div>
 
             {/* Buttons */}

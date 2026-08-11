@@ -35,7 +35,7 @@ const Technologies = () => {
 
   const programmingSkills = [
     { icon: FaJava, color: "text-red-500", name: "Java" },
-    { icon: FaCode, color: "text-blue-500", name: "DSA" },
+    // { icon: FaCode, color: "text-blue-500", name: "DSA" },
     { icon: FaObjectGroup, color: "text-purple-500", name: "OOP" },
     { icon: FaUsers, color: "text-green-500", name: "Agile" },
     { icon: FaCogs, color: "text-gray-500", name: "SDLC" },

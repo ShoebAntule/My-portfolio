@@ -20,7 +20,7 @@ const Contact = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-lg text-center text-neutral-300 mb-12 max-w-2xl mx-auto"
         >
-          I'm open to internships and freelance opportunities. Feel free to reach out.
+          I'm currently open to Junior Full-Stack Developer opportunities and freelance projects.
         </motion.p>
 
         <div className="flex flex-col items-center space-y-6">

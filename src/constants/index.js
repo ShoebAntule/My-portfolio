@@ -19,8 +19,8 @@ export const EXPERIENCES = [
     year: "2023 - 2024",
     role: "Frontend Developer",
     company: "AradhyeTech",
-    description: "Designed and built intuitive user interfaces for web applications using Next.js and React. Partnered with backend teams to ensure seamless integration with Node.js APIs. Focused on enhancing UI responsiveness and performance optimization.",
-    technologies: ["HTML", "CSS", "Vue.js", "MySQL", "Figma"],
+    description: "Built and enhanced multiple web applications with a focus on responsive UI, interactive functionality, and user experience. Developed projects including a personal portfolio and browser-based games while implementing reusable components, client-side logic, form handling, and responsive layouts. Worked with modern frontend development practices and optimized applications for different screen sizes.",
+    technologies: ["HTML", "CSS", "Git", "Figma" ,"React.js", "JavaScript"],
     offerLetter: "/Aradhyetech.pdf", // Path to the offer letter
   },
   {
@@ -28,12 +28,12 @@ export const EXPERIENCES = [
     role: "Web Developer",
     company: "Prodigy Infotech",
     description: "Created and managed dynamic web applications utilizing JavaScript, React.js, and Node.js. Developed RESTful APIs to streamline data communication. Worked closely with teams across departments to ensure efficient project execution and timely delivery.",
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["React.js", "Node.js"],
     offerLetter: "/public/prodigyinfotech.pdf",
   },
   {
     year: "2025",
-    role: "Web Developer",
+    role: "Full-stack Web Developer Intern",
     company: "Asthatic Social",
     description: "Engineered and enhanced web solutions using JavaScript, React.js, and Node.js. Designed and structured APIs to support efficient data exchange. Contributed to team discussions and collaborated on UI/UX improvements to refine user experience.",
     technologies: ["React", "TypeScript", "Tailwind", "Figma"],

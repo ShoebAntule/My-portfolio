@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import pulseboard from "../assets/projects/pulseboard.png";
+import primeFoundation from "../assets/projects/prime-foundation.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like Html5, CSS3, JavaScript React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -91,6 +93,25 @@ export const PROJECTS = [
     work: "Designed the frontend user interface, implemented donor and request management logic, built forms for donor registration and blood requests, handled basic backend data flow and validation.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ShoebAntule/blood-link"
+  },
+  {
+    title: "PulseBoard",
+    image: pulseboard,
+    description: "A personalized content dashboard that aggregates real-time news, trending movies, and social discussions from Bluesky into a single responsive interface.",
+    problem: "News, movies, and social content live on separate platforms, making it hard to follow your interests from a single view.",
+    work: "Built the Next.js dashboard with the App Router (Dashboard, Trending, Favorites, Search, Movies, Settings) and a Redux Toolkit store backed by RTK Query that fetches NewsAPI, TMDB, and Bluesky content through server-side API route proxies. Implemented responsive content cards, overview analytics, category and content-type filtering, favorites persistence, theme switching, and Framer Motion entrance animations with Lucide React icons.",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Redux Toolkit", "RTK Query", "Framer Motion", "Lucide React"],
+    url: "https://pulseboard-shoeb.vercel.app/dashboard",
+    github: "https://github.com/ShoebAntule/PulseBoard"
+  },
+  {
+    title: "Prime Foundation — NGO Website",
+    image: primeFoundation,
+    description: "A responsive nonprofit website that showcases Prime Foundation's mission and community programs in education, healthcare, women's empowerment, food security, and social welfare.",
+    problem: "Nonprofit organizations need a professional, accessible online presence to communicate their impact and make it easier for people to participate or contribute.",
+    work: "Built the React/Vite site with reusable components and responsive layouts across Home, About, Programs, Projects, Gallery, Volunteer, and Contact sections. Presented program details and impact metrics for initiatives such as monthly grocery support, Blessing in a Bag, Medical Assistance, and Women Empowerment, and integrated the donation flow with the Razorpay checkout, proxying order creation and payment verification server-side. Added Framer Motion scroll-reveal animations throughout.",
+    technologies: ["React", "Vite", "Tailwind CSS", "JavaScript", "Razorpay", "Framer Motion"],
+    url: "https://www.primefoundation.in/"
   },
 ];
 

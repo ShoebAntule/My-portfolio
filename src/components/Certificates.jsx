@@ -29,6 +29,16 @@ const CERTIFICATES = [
     link: "/rcoe.pdf",
   },
   {
+    title: "AWS Academy Graduate - Cloud Foundations ",
+    image: "/certificates/aws_cert.png",
+    link: "/aws_cert.pdf",
+  },
+  {
+    title: "Wordpress Website Development",
+    image: "/certificates/Wordpress.jpg",
+    link: "/wordpress.pdf",
+  },
+  {
     title: "HackWithMumbai – National Level Hackathon (Certificate of Recognition)",
     image: "/certificates/HWI.jpg",
     link: "/rcoe.pdf",

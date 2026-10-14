@@ -43,6 +43,11 @@ const CERTIFICATES = [
     image: "/certificates/HWI.jpg",
     link: "/rcoe.pdf",
   },
+  {
+    title: "Mastering SEO",
+    image: "/certificates/SEO.jpg",
+    link: "/SEO.pdf",
+  },
 ];
 
 const Certificates = () => {

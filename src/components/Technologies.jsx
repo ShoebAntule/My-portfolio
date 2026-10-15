@@ -1,6 +1,34 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 
+
+import {
+  SiDjango,
+  SiFastapi,
+  SiExpress,
+  SiPostgresql,
+  SiSqlite,
+  SiGithubactions,
+  SiNetlify,
+  SiTypescript,
+  SiSupabase,
+  SiPytorch,
+  SiSolana,
+} from "react-icons/si";
+
+import {
+  FaPython,
+  FaDatabase,
+  FaAws,
+  FaDocker,
+  FaRobot,
+  FaShieldAlt,
+} from "react-icons/fa";
+
+import { VscAzure } from "react-icons/vsc";
+
+
+
 import { SiMongodb, SiFigma, SiTailwindcss, SiJavascript, SiGit, SiPostman, SiVercel, SiWordpress } from "react-icons/si";
 import { FaNodeJs, FaHtml5, FaCss3, FaCode, FaObjectGroup, FaUsers, FaCogs, FaCloud, FaShareAlt, FaJava, FaNetworkWired } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -24,6 +52,8 @@ const Technologies = () => {
     { icon: SiJavascript, color: "text-yellow-400", name: "JavaScript" },
     { icon: FaHtml5, color: "text-orange-500", name: "HTML" },
     { icon: FaCss3, color: "text-blue-500", name: "CSS / Tailwind" },
+    { icon: SiTypescript, color: "text-blue-500", name: "TypeScript" },
+    { icon: SiTailwindcss, color: "text-cyan-400", name: "Tailwind CSS" },
     { icon: TbBrandNextjs, color: "text-white", name: "Next.js" },
     { icon: SiWordpress, color: "text-blue-600", name: "WordPress" },
   ];
@@ -31,14 +61,26 @@ const Technologies = () => {
   const backendSkills = [
     { icon: FaNodeJs, color: "text-green-500", name: "Node.js (Express)" },
     { icon: SiMongodb, color: "text-green-500", name: "MongoDB" },
-  ];
+    { icon: SiExpress, color: "text-neutral-300", name: "Express.js" },
+    { icon: SiDjango, color: "text-green-600", name: "Django / DRF" },
+    { icon: SiFastapi, color: "text-teal-400", name: "FastAPI" },
+    { icon: SiPostgresql, color: "text-blue-400", name: "PostgreSQL" },
+    { icon: SiSqlite, color: "text-sky-400", name: "SQLite" },
+    { icon: SiSupabase, color: "text-emerald-400", name: "Supabase" },
+    { icon: FaRobot, color: "text-violet-400", name: "LLM API Integration" },
+{ icon: SiPytorch, color: "text-orange-500", name: "PyTorch" },
+{ icon: SiSolana, color: "text-purple-400", name: "Solana / Web3" },
+{ icon: FaShieldAlt, color: "text-emerald-400", name: "JWT / RBAC" },
+    ];
 
   const programmingSkills = [
     { icon: FaJava, color: "text-red-500", name: "Java" },
-    // { icon: FaCode, color: "text-blue-500", name: "DSA" },
+    { icon: FaCode, color: "text-blue-500", name: "DSA" },
     { icon: FaObjectGroup, color: "text-purple-500", name: "OOP" },
     { icon: FaUsers, color: "text-green-500", name: "Agile" },
-    { icon: FaCogs, color: "text-gray-500", name: "SDLC" },
+    // { icon: FaCogs, color: "text-gray-500", name: "SDLC" },
+    { icon: FaPython, color: "text-yellow-400", name: "Python" },
+    { icon: FaDatabase, color: "text-blue-400", name: "SQL" },  
   ];
 
   const toolsSkills = [
@@ -48,7 +90,13 @@ const Technologies = () => {
     { icon: SiVercel, color: "text-white", name: "Vercel" },
     { icon: FaCloud, color: "text-gray-500", name: "VPS Hosting" },
     { icon: FaShareAlt, color: "text-green-500", name: "Shared Hosting" },
-    { icon: FaNetworkWired, color: "text-cyan-500", name: "Railwire (ISP)" },
+    // { icon: FaNetworkWired, color: "text-cyan-500", name: "Railwire (ISP)" },
+    { icon: FaDocker, color: "text-blue-500", name: "Docker" },
+    { icon: FaAws, color: "text-orange-400", name: "AWS" },
+    { icon: VscAzure, color: "text-sky-500", name: "Azure" },
+    { icon: SiGithubactions, color: "text-blue-400", name: "GitHub Actions" },
+    { icon: FaCogs, color: "text-emerald-400", name: "CI/CD" },
+    { icon: SiNetlify, color: "text-teal-400", name: "Netlify" },
   ];
 
   return (

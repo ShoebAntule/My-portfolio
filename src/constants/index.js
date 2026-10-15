@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import pulseboard from "../assets/projects/pulseboard.png";
 import primeFoundation from "../assets/projects/prime-foundation.png";
+import agent_storage from "../assets/projects/agent_storage.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like Html5, CSS3, JavaScript React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -112,6 +113,15 @@ export const PROJECTS = [
     work: "Built the React/Vite site with reusable components and responsive layouts across Home, About, Programs, Projects, Gallery, Volunteer, and Contact sections. Presented program details and impact metrics for initiatives such as monthly grocery support, Blessing in a Bag, Medical Assistance, and Women Empowerment, and integrated the donation flow with the Razorpay checkout, proxying order creation and payment verification server-side. Added Framer Motion scroll-reveal animations throughout.",
     technologies: ["React", "Vite", "Tailwind CSS", "JavaScript", "Razorpay", "Framer Motion"],
     url: "https://www.primefoundation.in/"
+  },
+  {
+    title: "Agent Storage — Agentic AI Coding Practice Platform",
+    image: agent_storage,
+    description: "A full-stack platform for practising AI-assisted engineering interviews through realistic codebases, strict hidden tests, and interactive browser previews.",
+    problem: "Traditional coding platforms focus on algorithms, leaving a gap in practising how to direct AI, review generated code, debug existing systems, and verify engineering decisions.",
+    work: "Designed and developed an end-to-end application with 30 distinct engineering challenges across three difficulty levels. Created multi-file projects covering payment integrity, authorization, load balancing, release pipelines, RAG retrieval, and UI rendering. Integrated configurable LLM assistance with file-level proposal review, side-by-side code comparison, and explicit approval before applying changes.Implemented timed sessions, deadline enforcement, automatic submission handling, saved drafts, and persistent attempt history using Supabase PostgreSQL. Built an isolated JavaScript evaluation engine with 40 checks per challenge, memory limits, and execution budgets. Added six interactive UI projects with sandboxed browser previews and compact evaluation summaries that keep hidden test details private.",
+    technologies: ["React", "Vite", "TypeScript ", "Node.js","Supabase PostgreSQL", "QuickJS","LLM APIs","Playwright", "Tailwind CSS", "JavaScript", "Stripe", "Framer Motion"],
+    url: "https://agent-storage.vercel.app/"
   },
 ];
 

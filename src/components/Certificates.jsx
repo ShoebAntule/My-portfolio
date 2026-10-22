@@ -4,29 +4,9 @@ import { motion } from "framer-motion";
 // Sample certificate data (replace with actual paths)
 const CERTIFICATES = [
   {
-    title: "FlipkartGrid Certification",
-    image: "/certificates/FlipkartGrid.png",
-    link: "/FlipkartGrid.pdf",
-  },
-  {
-    title: "Performance Appraisal Quiz Certification",
-    image: "/certificates/Performance Appraisal Quiz.png",
-    link: "/Performance Appraisal Quiz.pdf",
-  },
-  {
-    title: "Second Prize (The Tech Chase)",
-    image: "/certificates/TECH%20CHASE.jpg",
-    link: "/react.pdf",
-  },
-  {
-    title: "Nexathon Project Competition",
-    image: "/certificates/NEXATHON.jpg",
-    link: "/uiux.pdf",
-  },
-  {
-    title: "QueryCraft (SQL Querying)",
-    image: "/certificates/RCOE%20cert.jpg",
-    link: "/rcoe.pdf",
+    title: "AI Skills Passport – EY & Microsoft",
+    image: "/certificates/AI_passport.png",
+    link: "/AI_passport.pdf",
   },
   {
     title: "AWS Academy Graduate - Cloud Foundations ",
@@ -39,14 +19,39 @@ const CERTIFICATES = [
     link: "/wordpress.pdf",
   },
   {
+    title: "Mastering SEO",
+    image: "/certificates/SEO.jpg",
+    link: "/SEO.pdf",
+  },
+  {
+    title: "Second Prize (The Tech Chase)",
+    image: "/certificates/TECH%20CHASE.jpg",
+    link: "/react.pdf",
+  },
+  {
+    title: "Nexathon Project Competition",
+    image: "/certificates/NEXATHON.jpg",
+    link: "/uiux.pdf",
+  },
+  {
+    title: "Performance Appraisal Quiz Certification",
+    image: "/certificates/Performance Appraisal Quiz.png",
+    link: "/Performance Appraisal Quiz.pdf",
+  },
+  {
+    title: "QueryCraft (SQL Querying)",
+    image: "/certificates/RCOE%20cert.jpg",
+    link: "/rcoe.pdf",
+  },
+  {
     title: "HackWithMumbai – National Level Hackathon (Certificate of Recognition)",
     image: "/certificates/HWI.jpg",
     link: "/rcoe.pdf",
   },
   {
-    title: "Mastering SEO",
-    image: "/certificates/SEO.jpg",
-    link: "/SEO.pdf",
+    title: "FlipkartGrid Certification",
+    image: "/certificates/FlipkartGrid.png",
+    link: "/FlipkartGrid.pdf",
   },
 ];
 
